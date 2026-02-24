@@ -1,0 +1,26 @@
+      ** COMPONENTES PARA EL GOUND-STATION **
+** ANTENA:
+- Monopolo: L: k*lambda/4
+            k: depende del diametro de la antena y de la lambda/4
+            lambda: c/f
+
+- Dipolo: L: k*lambda/2
+          k: depende del diametro de la antena y de la lambda/2
+          lambda: c/f
+
+- Frecuencia de transmisión: --- (entre VHF y UHF -> puede ser 145MHz o 433MHz)
+
+** CABLE COAXIAL:
+- RG6: 75 ohm/m
+- Balun? Como solucionar? Se incluye un tubo donde se une con la antena y ahi ya no se
+https://www.electronica.com.py/producto/cable-coaxial-rg6-75-ohm-por-metro/
+
+** LORA: modulacion digital
+- Chip: SX1276 o SX1278 (para UHF)
+
+** MCU:
+- ESP32-S3-WROOM-1-N16R8:
+https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N16R8?qs=sGAEpiMZZMu3sxpa5v1qrkR%2F6t0IkXq81YLrKdmkb4Q%3D
+
+
+
