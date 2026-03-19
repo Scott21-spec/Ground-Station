@@ -15,8 +15,15 @@
 - Balun? Como solucionar? Se incluye un tubo donde se une con la antena y ahi ya no se
 https://www.electronica.com.py/producto/cable-coaxial-rg6-75-ohm-por-metro/
 
-** LORA: modulacion digital
+** CONECTOR SMA:
+- Macho: para el cable
+- Hembra: para el PCB
+
+** CONECTOR IPEX:
+
+** LORA: modulacion digital (Ra-02)
 - Chip: SX1276 o SX1278 (para UHF)
+https://www.digikey.com/es/products/detail/ai-thinker/RA-02/16688840
 
 ** MCU:
 - ESP32-S3-WROOM-1-N16R8:
