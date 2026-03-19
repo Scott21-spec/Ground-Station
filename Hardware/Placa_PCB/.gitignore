@@ -1,1 +1,19 @@
+# Archivos temporales y de respaldo
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
 
+# Archivos de red y caché local
+fp-info-cache
+*.pyc
+
+# Archivos de salida (Generados)
+# Descomenta las siguientes líneas si NO quieres subir tus PDFs o Gerbers
+# /plots/
+# /gerbers/
+
+# Archivos de bloqueo (Lock files)
+*.lck
