@@ -2070,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 91.44) (xy 184.15 91.44)
+			(xy 184.15 91.44) (xy 187.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 81.28) (xy 189.23 86.36)
+			(xy 193.04 81.28) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 99.06) (xy 189.23 102.87)
+			(xy 193.04 99.06) (xy 193.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 91.44) (xy 195.58 91.44)
+			(xy 198.12 91.44) (xy 199.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2400,7 +2400,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.98) (xy 195.58 93.98)
+			(xy 198.12 93.98) (xy 199.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2440,7 +2440,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 184.15 93.98)
+			(xy 184.15 93.98) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2499,44 +2499,44 @@
 		(uuid "26ad4ff1-0158-4d65-91a2-878ca192de17")
 	)
 	(label "D-"
-		(at 180.34 91.44 180)
+		(at 199.39 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a616ebea-888e-4928-938b-d639b18f68c2")
 	)
 	(label "D+"
-		(at 180.34 93.98 180)
+		(at 199.39 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b841d5b8-0e1e-4250-8f57-bbc7a6d13503")
 	)
 	(hierarchical_label "USB_D-"
 		(shape output)
-		(at 195.58 91.44 0)
+		(at 184.15 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "14427df0-a950-4867-8acb-4e5aa4f4bcc0")
 	)
 	(hierarchical_label "USB_D+"
 		(shape output)
-		(at 195.58 93.98 0)
+		(at 184.15 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7000089f-a864-4053-98b4-eb6814a3be30")
 	)
@@ -3156,7 +3156,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 189.23 102.87 0)
+		(at 193.04 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3165,7 +3165,7 @@
 		(fields_autoplaced yes)
 		(uuid "b50f07c5-f3a0-4f1e-a49b-9fb997fd307d")
 		(property "Reference" "#PWR05"
-			(at 189.23 109.22 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3174,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 189.23 106.68 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 189.23 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3222,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 189.23 91.44 0)
+		(at 193.04 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3231,7 +3231,7 @@
 		(dnp no)
 		(uuid "b82b3b2c-f074-4020-9c61-4d25c2b40ec2")
 		(property "Reference" "U3"
-			(at 187.5789 83.82 0)
+			(at 191.3889 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3240,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 187.5789 86.36 0)
+			(at 191.3889 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3249,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 187.96 97.79 0)
+			(at 191.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3260,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 187.96 99.695 0)
+			(at 191.77 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3270,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 189.23 91.44 0)
+			(at 193.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 189.23 81.28 0)
+		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3449,7 +3449,7 @@
 		(dnp no)
 		(uuid "c2e4e796-b578-43a6-b734-d776ad8bc81d")
 		(property "Reference" "#PWR017"
-			(at 189.23 85.09 0)
+			(at 193.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3458,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 186.436 78.994 0)
+			(at 190.246 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
