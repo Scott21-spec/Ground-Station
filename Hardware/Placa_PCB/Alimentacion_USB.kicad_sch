@@ -1912,7 +1912,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PROTECCION EDS"
+	(text "PROTECCION ESD"
 		(exclude_from_sim no)
 		(at 182.88 110.236 0)
 		(effects
